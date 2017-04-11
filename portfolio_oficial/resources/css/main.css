@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-  background: gray;
+  background: #4682B4;
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,20 +25,17 @@ body {
   width: auto;
   border-radius: 50%;
 }
-.col-1 {
+.col-1, .col-2, .col-3  {
   width: 33.33%;
+  color: white;
+  font-family: Raleway;
 }
-.col-2 {
-  width: 33.33%;
-}
-.col-3 {
-  width: 33.33%;
-}
+ 
 [class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
+  float: left;
+  padding: 15px;
 }
+
 #header {
   z-index: 9999;
   position: fixed;
