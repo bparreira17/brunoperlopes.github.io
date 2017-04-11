@@ -30,7 +30,6 @@ body {
   color: white;
   font-family: Raleway;
 }
- 
 [class*="col-"] {
   float: left;
   padding: 15px;
@@ -114,13 +113,21 @@ body {
 }
 
 #main-slideshow {
-  background-color: white;
   width: 100%;
   height: 450px;
+  border: dashed;
+}
+
+#main-slideshow h3 {
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+  font-family: Raleway;
 }
 
 #about-me h2{
   font-family: Raleway;
   font-size: x-large;
+  color: white;
   text-align: center;
 }
