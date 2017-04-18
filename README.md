@@ -1,3 +1,3 @@
 # brunoperlopes.github.io
-This is My portfolio!
+This is my portfolio!
 Enjoy!
